@@ -1,0 +1,212 @@
+
+  body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Gayathri', Arial, Helvetica, sans-serif;
+}
+
+header {
+    justify-content: center;
+    padding: 1rem;
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 46px;
+    color: white;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    top: 0;
+    font-family: 'Gayathri', sans-serif;
+}
+
+.content {
+    display: none;
+    grid-column: 2;
+    height: 100%;
+    padding-top: 1rem;
+    margin-right: 5rem;
+}
+
+.default {
+    grid-template-columns: repeat(3, 33.33%)
+}
+
+.active {
+    display: grid;
+}
+
+.new-form {
+    width: 60%;
+    margin: 1rem;
+}
+
+.new-form fieldset {
+    margin-bottom: 2rem;
+    border-style: solid;
+    border-width: 5px;
+}
+
+.new-form fieldset:nth-child(1) {
+    border-color: rgb(3, 3, 3);
+}
+
+.new-form fieldset:nth-child(2) {
+    border-color: rgb(3, 3, 3);
+}
+
+.new-form fieldset:nth-child(3) {
+    border-color: rgb(3, 3, 3);
+}
+
+.new-form legend {
+    font-size: 20px;
+}
+
+.new-form legend span {
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 26px;
+}
+
+.new-form textarea {
+    width: 95%;
+    font-family: 'Gayathri', sans-serif;
+    font-size: 18px;
+}
+
+.new-affirmation {
+    font-family: 'Gayathri', sans-serif;
+    font-size: 18px;
+    width: 27%;
+    margin-right: 2%;
+}
+
+.submit {
+    padding: 1rem;
+    font-size: 20px;
+    background-color: #303C6C;
+    color: white;
+    cursor: pointer;
+    -webkit-appearance: none;
+}
+
+.submit:hover {
+    letter-spacing: 1.5px;
+}
+
+.salt-item {
+    margin: 0.5rem;
+    padding: 2rem;
+}
+
+.salt-item h3 {
+    text-align: center;
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 20px;
+}
+
+.salt-item:nth-child(5n) {
+    background-color: #B4DFE5;
+}
+
+.salt-item:nth-child(5n+1) {
+    background-color: #FBE8A6;
+}
+
+.salt-item:nth-child(5n+2) {
+    background-color: #F4976C;
+}
+
+.salt-item:nth-child(5n+3) {
+    background-color: #D2FDFF;
+}
+
+.salt-item:nth-child(5n+4) {
+    background-color: #F4976C;
+}
+
+.post-content {
+    font-size: 18px;
+    text-align: justify;
+}
+
+.salt-item li {
+    list-style-type: none;
+    margin: 0;
+}
+
+.like-btn ~ span {
+    padding-left: 4px;
+}
+
+.like-btn {
+    padding: 0;
+    border: none;
+    font-size: 26px;
+    color: #EBEDEF;
+    -webkit-text-stroke: 1px #6B7A8F;
+    background-color: inherit;
+    text-shadow: -2px 2px #6B7A8F;
+    cursor: pointer;
+}
+
+.like-btn:hover {
+    transform: scale(1.2);
+}
+
+.tags:hover {
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+
+#link-nav {
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+      }
+      
+      li {
+        float: left;
+      }
+      
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      /* Change the link color to #111 (black) on hover */
+      li a:hover {
+        background-color: #111;
+
+#side-nav nav {
+    padding: 1rem;
+}
+
+.nav-link {
+    display: inline-block;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    text-align: top;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.nav-link:hover {
+    letter-spacing: 1.5px;
+    color: #FBE8A6;
+}
+
+.nav-link:active {
+    letter-spacing: 1.5px;
+    color: #6B7A8F;
+}

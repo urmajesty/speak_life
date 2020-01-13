@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  resources :users
+
   resources :affirmations
   resources :categories
   resources :posts, only: [:index, :create, :update]

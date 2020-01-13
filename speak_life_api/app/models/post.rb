@@ -14,8 +14,8 @@ class Post < ApplicationRecord
         def self.columns
             super.reject { |column| column.name == "user_id" }
         end
-        )
-                    
+        
+        def affirmation_attributes=(affirmation_array)
         affirmation_array.each do |affirmation_hash|
                 affirmation_hash.values.each do |keyword|
                     affirmation = Affirmation.find_or_create_by(affirmation_keyword: tag)
@@ -24,4 +24,3 @@ class Post < ApplicationRecord
             end
         end
     end
-end

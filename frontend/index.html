@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Speak Life</title>
+<link href="https://fonts.googleapis.com/css?family=Tenor+Sans&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+<div class="grid">
+    
+            <header>Speak Life</header>
+            <nav id="nav-links">
+                
+                <a href="#home" class="nav-link">home</a>
+               
+                <a href="#new" class="nav-link">new post</a>
+            </nav>
+    </div>
+
+    <div id="new" class="content">
+        <form class="new-form">
+            <fieldset data-category-id="1">
+                <legend>Say something great in regards to yourself</legend>
+                <textarea name="content" maxlength="255" rows="4" data-category-id="1"></textarea></br>
+                <label>#</label>
+                <input type="text" name="tag_name" class="new-affirmation" placeholder="Keyword">
+                <label>#</label>
+                <input type="text" name="tag_name" class="new-affirmation">
+                <label>#</label>
+                <input type="text" name="tag_name" class="new-affirmation">
+            </fieldset>
+            <fieldset data-category-id="2">
+                <legend>Say something great in regards to your circumstances</legend>
+                <textarea name="content" maxlength="255" rows="4" data-category-id="2"></textarea></br>
+                <label>#</label>
+                <input type="text" name="tag_name" class="new-affirmation" placeholder="Keyword">
+                <label>#</label>
+                <input type="text" name="tag_name" class="new-affirmation">
+                <label>#</label>
+                <input type="text" name="tag_name" class="new-affirmation">
+            </fieldset>
+            <fieldset data-category-id="3">
+                <legend>Say something great about your future</legend>
+                <textarea name="content" maxlength="255" rows="4" data-category-id="3"></textarea></br>
+                <label>#</label>
+                <input type="text" name="tag_name" class="new-affirmation" placeholder="Keyword">
+                <label>#</label>
+                <input type="text" name="tag_name" class="new-affirmation">
+                <label>#</label>
+                <input type="text" name="tag_name" class="new-affirmation">
+            </fieldset>
+            <input type="submit" value="submit" class="submit">
+        </form>
+    </div>
+
+    <div id="home" class="content default active">
+    </div>
+</div>
+
+<script type="text/javascript" src="category.js"></script>
+<script type="text/javascript" src="affirmation.js"></script>
+<script type="text/javascript" src="post.js"></script>
+<script type="text/javascript" src="adapter.js"></script>
+</body>
+</html>

@@ -40,6 +40,6 @@ class PostsController < ApplicationController
     private
 
     def post_params
-        params.require(:post).permit(:likes, :user_id :content, :category_id, affirmations_attributes: [:affirmation_keyword])
+        params.require(:post).permit(:likes, :user_id, :content, :category_id, affirmations_attributes: [:tag_name])
     end
 end
